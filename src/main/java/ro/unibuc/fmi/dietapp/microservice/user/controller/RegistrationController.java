@@ -7,7 +7,6 @@ import ro.unibuc.fmi.dietapp.microservice.user.dto.RegistrationDto;
 import ro.unibuc.fmi.dietapp.microservice.user.mapper.RegistrationMapper;
 import ro.unibuc.fmi.dietapp.microservice.user.service.RegistrationService;
 
-@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/registration")
 public class RegistrationController {

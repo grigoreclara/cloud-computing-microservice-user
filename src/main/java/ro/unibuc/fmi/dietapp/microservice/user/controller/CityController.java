@@ -9,8 +9,6 @@ import ro.unibuc.fmi.dietapp.microservice.user.model.City;
 import ro.unibuc.fmi.dietapp.microservice.user.service.CityService;
 
 import java.util.List;
-
-@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/cities")
 public class CityController {

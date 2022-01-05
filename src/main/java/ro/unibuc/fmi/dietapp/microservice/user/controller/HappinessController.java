@@ -10,7 +10,6 @@ import ro.unibuc.fmi.dietapp.microservice.user.service.HappinessService;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/happiness")
 public class HappinessController {

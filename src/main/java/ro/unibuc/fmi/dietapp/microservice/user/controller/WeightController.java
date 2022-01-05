@@ -11,7 +11,6 @@ import ro.unibuc.fmi.dietapp.microservice.user.service.WeightService;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/weights")
 public class WeightController {

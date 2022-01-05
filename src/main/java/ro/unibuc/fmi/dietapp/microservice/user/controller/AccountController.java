@@ -9,7 +9,6 @@ import ro.unibuc.fmi.dietapp.microservice.user.mapper.AccountMapper;
 import ro.unibuc.fmi.dietapp.microservice.user.model.Account;
 import ro.unibuc.fmi.dietapp.microservice.user.service.AccountService;
 
-@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/accounts")
 public class AccountController {
